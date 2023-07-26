@@ -65,7 +65,11 @@
               </div>
             </div>
             <div class="text-center pt-5">
-              <button type="button" class="btn btn-secondary me-3 fs-4 fw-bold">
+              <button
+                id="play-button"
+                type="button"
+                class="btn btn-secondary me-3 fs-4 fw-bold"
+              >
                 Genera
               </button>
               <button type="button" class="btn btn-secondary fs-4 fw-bold">
@@ -79,7 +83,37 @@
 
     <!-- BOTTOM-SECTION -->
 
-    <section></section>
+    <section>
+      <div class="container">
+        <div class="card bg-light border-none mt-5">
+          <div class="card-body">
+            <h2>DETTAGLI PASSEGGERI</h2>
+            <div class="d-flex justify-content-between">
+              <div class="bg-success px-2 rounded-2">
+                <h4>Nome passeggero</h4>
+                <h3 id="username">.....</h3>
+              </div>
+              <div class="border border-danger rounded-2 px-1">
+                <h4>Offerta</h4>
+                <h3>Biglietto Standard</h3>
+              </div>
+              <div class="border border-danger rounded-2 px-1">
+                <h4>Carrozza</h4>
+                <h3>5</h3>
+              </div>
+              <div class="border border-danger rounded-2 px-1">
+                <h4>Codice CP</h4>
+                <h3>92511</h3>
+              </div>
+              <div class="border border-danger rounded-2 px-1">
+                <h4>Costo biglietto</h4>
+                <h3 id="price">.....</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

@@ -10,3 +10,9 @@ Scrivere un programma che chieda all'utente:
 - va applicato uno sconto del 40% per gli over 65.
 
 ## SVOLGIMENTO
+
+- raccolgo i dati che mi servono in variabili
+- al click del mouse
+  - **SE** l'età dell'utente è meno di 18 applichiamo uno sconto del 20%
+  - **ALTRIMENTI** **SE** l'età dell'utente è più di 65 applichiamo uno sconto del 40%
+  - infine stampiamo il biglietto
